@@ -29,7 +29,7 @@ public class Test {
         return a - b;
     }
 
-    private static void use(){
+    private void use(){
 
     }
 
