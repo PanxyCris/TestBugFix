@@ -6,7 +6,7 @@ public class Test {
     private int VARIABLE = 3;
 
     public static void main(String[] args) {
-        drop();
+        drop(1);
         int c = dec(1, 2);
         int a = 0;
         c = 1;
@@ -33,7 +33,7 @@ public class Test {
 
     }
 
-    private static void drop(){
+    private static void drop(int a){
 
     }
 }
