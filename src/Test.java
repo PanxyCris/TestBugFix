@@ -11,7 +11,7 @@ public class Test {
         int a = 0;
         c = 1;
         a = add(0, add(1, 3));
-        int b = a;
+        int b = c;
         if (c == 3) {
             a = 5;
         } else if (c == 2) {
