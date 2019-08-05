@@ -13,13 +13,7 @@ public class Test {
         c = 1;
         a = add(0, add(1, 3));
         int b = c;
-        if (c == 3) {
-            a = 5;
-        } else if (c == 2) {
-            a = 3;
-        } else {
-            a = 4;
-        }
+
     }
 
     private static int add(int a, int b) {
