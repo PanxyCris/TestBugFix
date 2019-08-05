@@ -6,6 +6,7 @@ public class Test {
     private int VARIABLE = 3;
 
     public static void main(String[] args) {
+        use();
         int c = dec(1, 2);
         int a = 0;
         a = 1;
@@ -25,5 +26,13 @@ public class Test {
 
     private static int dec(int a, int b) {
         return a - b;
+    }
+
+    private static void use(){
+
+    }
+
+    private static void drop(){
+
     }
 }
