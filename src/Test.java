@@ -6,7 +6,7 @@ public class Test {
         int c  = add(1,2);
     }
 
-    public static int add(int a, int b) {
+    private static int add(int a, int b) {
         return a + b;
     }
 }
