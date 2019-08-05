@@ -6,7 +6,7 @@ public class Test {
     private int VARIABLE = 3;
 
     public static void main(String[] args) {
-        use();
+        drop();
         int c = dec(1, 2);
         int a = 0;
         a = 1;
