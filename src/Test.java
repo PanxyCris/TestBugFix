@@ -9,7 +9,7 @@ public class Test {
         int c  = add(1,2);
         int a  = 0;
         a = 1;
-        a = add(0,1);
+        a = add(0,add(1,3));
         if(c == 3){
             a = 5;
         } else if(c == 2){
