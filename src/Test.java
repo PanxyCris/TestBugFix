@@ -8,6 +8,7 @@ public class Test {
     public static void main(String[] args) {
         int c  = add(1,2);
         int a  = 0;
+        a = 1;
         if(c == 3){
             a = 5;
         } else if(c == 2){
