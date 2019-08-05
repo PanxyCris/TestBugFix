@@ -10,7 +10,9 @@ public class Test {
         int a  = 0;
         if(c == 3){
             a = 5;
-        } else{
+        } else if(c == 2){
+            a = 3;
+        }else{
             a = 4;
         }
     }
