@@ -4,6 +4,7 @@
 public class Test {
 
     private int VARIABLE = 3;
+    private int CONSTANT = 4;
 
     public static void main(String[] args) {
         drop(2);
@@ -30,7 +31,7 @@ public class Test {
     }
 
     private void use(){
-        this.VARIABLE = 2;
+        this.CONSTANT = 2;
     }
 
     private static void drop(int a){
