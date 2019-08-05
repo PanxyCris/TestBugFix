@@ -30,7 +30,7 @@ public class Test {
     }
 
     private void use(){
-
+        VARIABLE = 2;
     }
 
     private static void drop(int a){
