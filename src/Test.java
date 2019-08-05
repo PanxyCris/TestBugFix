@@ -9,7 +9,7 @@ public class Test {
         drop();
         int c = dec(1, 2);
         int a = 0;
-        a = 1;
+        c = 1;
         a = add(0, add(1, 3));
         if (c == 3) {
             a = 5;
