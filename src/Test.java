@@ -10,6 +10,8 @@ public class Test {
         int a  = 0;
         if(c == 3){
             a = 5;
+        } else{
+            a = 4;
         }
     }
 
