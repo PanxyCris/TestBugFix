@@ -31,7 +31,7 @@ public class Test {
     }
 
     private void use(){
-        this.CONSTANT = this.VARIABLE;
+        this.CONSTANT = 3;
     }
 
     private static void drop(int a){
