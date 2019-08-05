@@ -30,8 +30,9 @@ public class Test {
         return a - b;
     }
 
-    private void use(){
+    private void use(int a){
         this.VARIABLE = 3;
+        this.CONSTANT = a;
     }
 
     private static void drop(int a){
